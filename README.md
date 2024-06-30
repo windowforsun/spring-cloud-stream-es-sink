@@ -1,0 +1,1 @@
+https://github.com/spring-cloud/stream-applications/blob/main/applications/sink/elasticsearch-sink/README.adoc

@@ -1,0 +1,16 @@
+
+
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder: localhost:9092
+      function:
+        bindings:
+          elasticsearchConsumer-in-0: input
+      bindings:
+        input:
+          destination: output
+  elasticsearch:
+    rest:
+      uris: 'http://localhost:9200'
